@@ -18,9 +18,8 @@ op = {"+": add, "-": sub, "*": mul, "/": div}
 op = input("op: ")
 print(op(n1, n2))
 # calculator using conditions and loop
-calculator using conditions
 yesno = str
-yesno = raw_input("do you wanna use this calculator: ") 
+yesno = raw_input("do you wanna use this calculator(yes/no): ") 
 while yesno == "yes":
     num1 = float
     num1 = input("num1: ")
@@ -28,13 +27,13 @@ while yesno == "yes":
     num2 = float
     num2 = input("num2: ")
     if oper == "+":
-        print (num1 + num2)
+        print (num1, " + ", num2, " = ", num1 + num2)
     if oper == "-":
-        print (num1 - num2)
+        print (num1, " - ", num2, " = ", num1 - num2)
     if oper == "*":
-        print (num1 * num2)
+        print (num1, " * ", num2, " = ", num1 * num2)
     if oper == "/":
-        print (num1 / num2)
-    yesno = raw_input("do you wanna use this calculator: ")
+        print (num1, " / ", num2, " = ", num1 / num2)
+    yesno = raw_input("do you wanna use this calculator(yes/no): ")
 else:
     print ("power off")
